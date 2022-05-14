@@ -133,3 +133,41 @@ body {
 
     color: #fff;
 }
+.card{
+    text-align: center;
+    width: 15em;
+    height: 10em;
+    background-color: #0082e6;
+    color: #fff;
+    margin-left: 150px;
+}
+a{
+    color: #fff;
+}
+
+
+/* Log in Form */
+.form{
+    padding-left: 20em;
+}
+.input-container{
+    padding-bottom: 20px;
+}
+.input{
+    border: 2px solid #0082e6;
+    border-radius: 4px;
+    width:17em;
+    height: 2em;
+}
+.submitform{
+    padding-left: 4em;
+}
+.submitformbtn{
+    background-color: #0082e6;
+    border: none;
+    color: white;
+    width: 7em;
+    height: 3em;
+    border-radius: 5px;
+    
+}
