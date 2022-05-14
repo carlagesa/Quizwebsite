@@ -59,7 +59,7 @@ const quizData =
         correct: "d"
     }
 ];
-const alphabets = ["a", "b", "c", "d"];
+const alphabets = ['a', 'b', 'c', 'd'];
 const questionElements = document.getElementById('questions');
 const options = document.querySelectorAll('label');
 const submitBtn = document.getElementById('input');//the getElementById gets element with the defined id.
@@ -70,3 +70,67 @@ let currentQuiz = 0;
 let score = 0;
 let answer;
 letanswerHasBeenSelected = false;
+
+loadQuiz();
+
+function loadQuiz() {
+    const currentQuizData = quizData[currentQuiz];
+    questionElement.textContent = currentQuizData.question;
+
+    options.forEach(function(option, index)
+    {
+        let optionNumber = alphabets[index];
+        option.innerText = currentQuizData[optionNumber];
+    });
+}// The function loads quiz for the user
+
+function replay()
+{
+    location.reload();
+}// This is a method that reloads the document, does the same as a reload button.
+
+function validateResponse()
+{
+    for (answer of answers)
+    {
+        if(answer.checked)
+        {
+            let answerValue = answer.id;
+            if(answerValue === quizData[currentQuiz].correct)
+            {
+                score++;
+            }
+            answerHasBeenSelected = true;
+            break;
+        }
+        else
+        {
+            answerHasBeenSelected = false;
+        }
+    }
+}
+
+submitBtn.addEventListener('click', function()
+{
+    validateResponse();
+
+    if(!answerHasBeenSelected)//Checks if an answer has been setected "!sign"
+    {
+        alert("Please choose an option!");
+    }
+    else //else will load the next quiz
+    {
+        currentQuiz++;
+    
+        if(currentQuiz < quizData.length)
+        {
+            loadQuiz(); //so if the currentQuiz is less than the quizData we defined on line 3 we call the loadQuiz(); function
+        }
+        else 
+        {
+            container.innerHTML = `<h1 id = "scoreText"> Your Score: ${score}/${quizData.length} </h1>
+                                    <meter min = "0" max = "100" value = "${(score * 100)/quizData.length}"></meter>
+                                    <button type = "button" id = "replay" onclick = "replay()">Replay</button>`;
+        }
+    }
+});
