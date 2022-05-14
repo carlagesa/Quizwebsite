@@ -1,62 +1,57 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
-*
-{
+
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     outline: none;
     box-sizing: border-box;
+    font-size: 15pt;
 }
-html
-{
+
+html {
     font-size: 62.5%;
 }
-body
-{
-    background: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    min-width: 100vw;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+#question {
+    color: #205279be;
 }
-.container
-{
+
+.container {
     background: white;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
-    min-width: 50rem;
-    min-height: 20rem;
-    height: auto;
+    width: 50em;
+    height: 20rem;
+    margin-left: 17em;
 }
-.container .question-container h1
-{
+
+.container .question-container h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #4a4a4a;
 }
-.container .question-container ul li
-{
+
+.container .question-container ul li {
     margin: 1rem;
     cursor: pointer;
 }
-.container .question-container ul li label
-{
+
+.container .question-container ul li label {
     color: #000;
     font-size: 1.5rem;
     margin: 1rem;
     cursor: pointer;
 }
-.container .question-container
-{
+
+.container .question-container {
     margin: 3rem;
 }
-.container button
-{
-    width: 100%;  
-    background: #0082e6;
+
+.container button {
+    width: 100%;
+    background: #205279be;
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -67,25 +62,205 @@ body
     cursor: pointer;
     border-radius: 0 0 1rem 1rem;
 }
-.container button:hover
-{
-    background: #1b9bff;
+
+.container button:hover {
+    background: #205279be;
     transition: 0.5s;
 }
-#scoreText
-{
+
+#scoreText {
     text-align: center;
     margin-top: 3rem;
 }
-meter
-{
+
+meter {
     height: 5rem;
     border: 1px solid lightgrey;
     width: 30rem;
     margin-top: 3rem;
     margin-left: 9rem;
 }
-#replay
-{
+
+#replay {
     margin-top: 3rem;
+}
+
+/*  */
+
+.navigation {
+    position: fixed;
+
+    height: 100%;
+
+    width: 13em;
+    background: #fff;
+    border: 2px solid #205279be;
+    transition: 0.5s;
+
+    overflow: hidden;
+}
+
+.navigation:hover {
+    width: 300px;
+}
+
+.navigation ul {
+    position: relative;
+    margin-left: -20px;
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+}
+
+.navigation ul li {
+    position: relative;
+
+    width: 100%;
+
+    list-style: none;
+}
+
+.navigation ul li:hover {
+    background: #205279be;
+    border-radius: 10px;
+    width: 11em;
+}
+
+.navigation ul li a {
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+
+    display: flex;
+
+    text-decoration: none;
+
+    color: black;
+}
+
+.navigation ul li a .icon {
+    position: relative;
+
+    display: block;
+
+    min-width: 60px;
+
+    height: 60px;
+
+    line-height: 60px;
+
+    text-align: left;
+}
+
+.navigation ul li a .icon fa {
+    font-size: 24px;
+}
+
+.navigation ul li .title {
+    position: relative;
+
+    display: block;
+
+    padding: 0 10px;
+
+    height: 60px;
+
+    line-height: 60px;
+
+    text-align: start;
+
+    white-space: nowrap;
+}
+
+.toggle {
+    position: relative;
+
+    top: 0;
+
+    left: 0;
+
+    height: 60px;
+
+    width: 60px;
+
+    background: #205279be;
+
+    cursor: pointer;
+}
+
+.toggle:hover {
+    background: #205279be;
+}
+
+.toggle:before {
+    font-family: fontAwesome;
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 100%;
+
+    line-height: 60px;
+
+    text-align: center;
+
+    font-size: 24px;
+
+    color: #fff;
+}
+
+.card {
+    text-align: center;
+    width: 15em;
+    height: 10em;
+    background-color: #205279be;
+    color: #fff;
+    margin-left: 16em;
+}
+
+a {
+    color: #fff;
+}
+
+
+/* Log in Form */
+
+.form {
+    margin-left: 19em;
+    padding-top: 3em;
+    padding-left: 3em;
+    width: 15em;
+    height: 14em;
+    border-radius: 10px;
+    background-color: #205279be;
+}
+
+.input-container {
+    padding-bottom: 20px;
+}
+
+.input {
+    border: 2px solid #205279be;
+    border-radius: 4px;
+    width: 17em;
+    height: 2em;
+}
+
+.submitform {
+    padding-left: 4em;
+}
+
+.submitformbtn {
+    background-color: #fff;
+    border: none;
+    color: black;
+    width: 7em;
+    height: 3em;
+    border-radius: 5px;
+    cursor: pointer;
 }
