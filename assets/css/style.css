@@ -95,3 +95,20 @@ body
     background: #1b9bff;
     transition: 0.5s;
 }
+#scoreText
+{
+    text-align: center;
+    margin-top: 3rem;
+}
+meter
+{
+    height: 5rem;
+    border: 1px solid lightgrey;
+    width: 30rem;
+    margin-top: 3rem;
+    margin-left: 9rem;
+}
+#replay
+{
+    margin-top: 3rem;
+}
