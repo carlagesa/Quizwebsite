@@ -59,3 +59,14 @@ const quizData =
         correct: "d"
     }
 ];
+const alphabets = ["a", "b", "c", "d"];
+const questionElements = document.getElementById('questions');
+const options = document.querySelectorAll('label');
+const submitBtn = document.getElementById('input');//the getElementById gets element with the defined id.
+const answers = document.querySelectorAll('input'); // the queryselectorall returns all selectors 
+const container = document.querySelector('.container');//the query sellector sellects the first element that matches a CSS selector.
+
+let currentQuiz = 0;
+let score = 0;
+let answer;
+letanswerHasBeenSelected = false;
