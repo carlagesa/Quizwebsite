@@ -4,31 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>The Questioner</title>
 </head>
 <body>
     <div class="container">
         <div class="question-container">
-            <h1 id = "question">Question Text</h1>
-            <ul>
-                <li>
+            <h1 class="questionbox" id = "question">Question Text</h1>
+            <ul class="optionrow1">
+                <li class="option1">
                     <input type="checkbox" name="1" id="a" required required>
                     <label for="a">null</label>
                 </li>
-                <li>
+                <li class="option2">
                     <input type="checkbox" name="1" id="b" required>
                     <label for="b">null</label>
                 </li>
-                <li>
+
+            </ul>
+            <ul class="optionrow2">
+
+                <li class="option3">
                     <input type="checkbox" name="1" id="c" required>
                     <label for="b">null</label>
                 </li>
                
-                <li>
+                <li class="option4">
                     <input type="checkbox" name="1" id="d" required>
                     <label for="d">null</label>
                 </li>
             </ul>
+                
+            
         </div>
         <button class="submitButton" type = "button" id = "submit">Submit</button>
     </div>
