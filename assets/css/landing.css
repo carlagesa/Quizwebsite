@@ -147,8 +147,15 @@ a{
 
 
 /* Log in Form */
+
 .form{
-    padding-left: 20em;
+    margin-left: 19em;
+    padding-top: 3em;
+    padding-left: 3em;
+    width: 15em;
+    height: 14em;
+    border-radius: 10px;
+    background-color: #0082e6;
 }
 .input-container{
     padding-bottom: 20px;
@@ -163,11 +170,11 @@ a{
     padding-left: 4em;
 }
 .submitformbtn{
-    background-color: #0082e6;
+    background-color: #fff;
     border: none;
-    color: white;
+    color: black;
     width: 7em;
     height: 3em;
     border-radius: 5px;
-    
+    cursor: pointer;
 }
