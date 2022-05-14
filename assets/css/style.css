@@ -234,8 +234,8 @@ a {
     margin-left: 19em;
     padding-top: 3em;
     padding-left: 3em;
-    width: 15em;
-    height: 14em;
+    width: 22em;
+    height: 18em;
     border-radius: 10px;
     background-color: #205279be;
 }
@@ -246,7 +246,7 @@ a {
 
 .input {
     border: 2px solid #205279be;
-    border-radius: 4px;
+    border-radius: 8px;
     width: 17em;
     height: 2em;
 }
@@ -259,8 +259,9 @@ a {
     background-color: #fff;
     border: none;
     color: black;
-    width: 7em;
-    height: 3em;
+    width: 5em;
+    height: 2em;
     border-radius: 5px;
+    margin-left: 32px;
     cursor: pointer;
 }
