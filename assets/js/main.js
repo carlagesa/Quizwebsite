@@ -112,7 +112,7 @@ function validateResponse()
 
 submitBtn.addEventListener('click', function()
 {
-    validateResponse();
+    validateResponse();//This calls the validate repsonse function
 
     if(!answerHasBeenSelected)//Checks if an answer has been setected "!sign"
     {
