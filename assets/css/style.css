@@ -267,3 +267,16 @@ a {
     margin-left: -5px;
     cursor: pointer;
 }
+.loginbtn{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 5em;
+    height: 2em;
+    cursor: pointer;
+}
+.loginbtn:hover{
+background-color: #205279be;
+border: 2px solid white;
+color: #fff;
+}
