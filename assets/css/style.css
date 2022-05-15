@@ -100,10 +100,6 @@ meter {
     overflow: hidden;
 }
 
-.navigation:hover {
-    width: 300px;
-}
-
 .navigation ul {
     position: relative;
     margin-left: -20px;
@@ -125,7 +121,10 @@ meter {
 .navigation ul li:hover {
     background: #205279be;
     border-radius: 10px;
-    width: 11em;
+    width: 21em;
+}
+span:hover{
+    color: white;
 }
 
 .navigation ul li a {
@@ -144,6 +143,7 @@ meter {
 
 .navigation ul li a .icon {
     position: relative;
+    padding-left: 30px;
 
     display: block;
 
@@ -221,6 +221,7 @@ meter {
     background-color: #205279be;
     color: #fff;
     margin-left: 16em;
+    border-radius: 11px;
 }
 
 a {
@@ -231,10 +232,10 @@ a {
 /* Log in Form */
 
 .form {
-    margin-left: 19em;
+    margin-left: 29em;
     padding-top: 3em;
     padding-left: 3em;
-    width: 22em;
+    width: 17em;
     height: 18em;
     border-radius: 10px;
     background-color: #205279be;
@@ -242,12 +243,13 @@ a {
 
 .input-container {
     padding-bottom: 20px;
+    margin-left: -22px;
 }
 
 .input {
-    border: 2px solid #205279be;
     border-radius: 8px;
-    width: 17em;
+    border: none;
+    width: 14em;
     height: 2em;
 }
 
@@ -262,6 +264,6 @@ a {
     width: 5em;
     height: 2em;
     border-radius: 5px;
-    margin-left: 32px;
+    margin-left: -5px;
     cursor: pointer;
 }
