@@ -11,8 +11,8 @@ Questioner is quiz website created and maintained by **Carlton Agesa**
 
 ## Description
 
-<p>This is a school quiz website which aims to help students farmiliarise themselves with exam content and
-gain exam confidence hence producing excellent grades.</p>
+This is a school quiz website which aims to help students farmiliarise themselves with exam content and
+gain exam confidence hence producing excellent grades.
 
 ### Features
 >
@@ -28,7 +28,7 @@ gain exam confidence hence producing excellent grades.</p>
 
 ### Setup and installation
 
-<p>To view the website,</p>
+To view the website,
 
 * Click [Here](https://carlagesa.github.io/Quizwebsite/) **or**
 * Copy the link <https://carlagesa.github.io/Quizwebsite/> paste to your browser and load it
@@ -37,12 +37,13 @@ gain exam confidence hence producing excellent grades.</p>
 
 * HTML - which was used to develop the structure off the pages.
 * CSS - which was used to style the User Interface.
+* JavaScript - was used to put interactivity and functionality of the questions on the page.
 
 ## Bugs and Issues
 
-<p>Have a bug or issue? Open a new issue here on Github</p>
+Have a bug or issue? Open a new issue here on Github
 
 ## License
 
-</p>The contents of this repository are free , you can republish.
-That's it use it however you please just attribute me.Thank you!</p>
+The contents of this repository are free , you can republish.
+That's it use it however you please just attribute me.Thank you!
