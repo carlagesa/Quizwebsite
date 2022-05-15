@@ -8,6 +8,11 @@
     outline: none;
     box-sizing: border-box;
     font-size: 15pt;
+    
+}
+body{
+    background-color:  hsl(218deg 50% 91%);
+
 }
 
 html {
@@ -93,7 +98,7 @@ meter {
     height: 100%;
 
     width: 13em;
-    background: #fff;
+    background-color:  hsl(218deg 50% 91%);
     border: 2px solid #205279be;
     transition: 0.5s;
 
@@ -235,10 +240,10 @@ a {
     margin-left: 29em;
     padding-top: 3em;
     padding-left: 3em;
-    width: 17em;
+    width: 18em;
     height: 18em;
     border-radius: 10px;
-    background-color: #205279be;
+    background-color:  #205279be;
 }
 
 .input-container {
