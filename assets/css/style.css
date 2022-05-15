@@ -8,10 +8,11 @@
     outline: none;
     box-sizing: border-box;
     font-size: 15pt;
-    
+
 }
-body{
-    background-color:  hsl(218deg 50% 91%);
+
+body {
+    background-color: hsl(218deg 50% 91%);
 
 }
 
@@ -98,7 +99,7 @@ meter {
     height: 100%;
 
     width: 13em;
-    background-color:  hsl(218deg 50% 91%);
+    background-color: hsl(218deg 50% 91%);
     border: 2px solid #205279be;
     transition: 0.5s;
 
@@ -128,7 +129,8 @@ meter {
     border-radius: 10px;
     width: 21em;
 }
-span:hover{
+
+span:hover {
     color: white;
 }
 
@@ -243,7 +245,7 @@ a {
     width: 18em;
     height: 18em;
     border-radius: 10px;
-    background-color:  #205279be;
+    background-color: #205279be;
 }
 
 .input-container {
@@ -272,7 +274,8 @@ a {
     margin-left: -5px;
     cursor: pointer;
 }
-.loginbtn{
+
+.loginbtn {
     background-color: #fff;
     border: none;
     border-radius: 5px;
@@ -280,8 +283,9 @@ a {
     height: 2em;
     cursor: pointer;
 }
-.loginbtn:hover{
-background-color: #205279be;
-border: 2px solid white;
-color: #fff;
+
+.loginbtn:hover {
+    background-color: #205279be;
+    border: 2px solid white;
+    color: #fff;
 }
