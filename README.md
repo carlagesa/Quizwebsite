@@ -8,6 +8,7 @@ Questioner is quiz website created and maintained by **Carlton Agesa**
 
 * [Twitter](https://twitter.com/techguy_ke/)
 * [Github](https://github.com/carlagesa/)
+* [LinkedIn](https://www.linkedin.com/in/carlton-agesa/)
 
 ## Description
 
